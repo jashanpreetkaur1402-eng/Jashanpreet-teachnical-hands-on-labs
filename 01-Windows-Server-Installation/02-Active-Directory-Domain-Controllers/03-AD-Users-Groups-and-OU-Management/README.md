@@ -35,16 +35,32 @@ I performed the following "Day 2" administrative tasks to verify domain health:
 4.  **Remote Login:** Verified that new domain users could successfully authenticate onto the PC-3 workstation.
 
 
-lab evidence 
+lab evidence
+
 Add all users to the Staff groups 
 <img width="975" height="747" alt="image" src="https://github.com/user-attachments/assets/5ed16e9b-a1b1-4743-b276-ba0508555614" />
+
 Successfully joined the `rogers-858.ca` domain and verified the connection via a Domain Administrator login
-<img width="975" height="744" alt="image" src="https://github.com/user-attachments/assets/3bdd1c12-a815-4954-b96b-9f533111a6f1" />
+
 <img width="970" height="694" alt="image" src="https://github.com/user-attachments/assets/e4270c29-4021-4a0a-abec-fe8e25b0bca0" />
 <img width="975" height="813" alt="image" src="https://github.com/user-attachments/assets/a4eff0d4-e36e-4538-bddd-439325cefbb1" />
 <img width="975" height="691" alt="image" src="https://github.com/user-attachments/assets/5012e88f-b44b-4126-925c-98d930e26c1f" />
+
+Test domain login to the desktop using any of the user account  that your created. 
+<img width="975" height="719" alt="image" src="https://github.com/user-attachments/assets/1700a0c2-9adc-4827-81ae-d03fdb2ed1f0" />
+
+
+Verify replication between DCs.
 <img width="975" height="459" alt="image" src="https://github.com/user-attachments/assets/4cd8ad1d-e299-44e8-be49-c9d3134ce76b" />
+
+Test disabling a user account. 
 <img width="966" height="686" alt="image" src="https://github.com/user-attachments/assets/fe7ef194-baa1-4719-8988-cb04dca42d3a" />
+
+Test “change password on next login”.
 <img width="783" height="478" alt="image" src="https://github.com/user-attachments/assets/4a1a691a-169f-4871-8717-7e6d160faf9b" />
+
+Test resetting a user password. 
 <img width="963" height="677" alt="image" src="https://github.com/user-attachments/assets/157bcc26-0044-4fad-977e-daac12b064a2" />
+
+Delete a user account. 
 <img width="944" height="673" alt="image" src="https://github.com/user-attachments/assets/122e8f42-8155-4560-b8b0-2590f7475e9d" />
