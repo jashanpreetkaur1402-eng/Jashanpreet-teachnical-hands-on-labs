@@ -21,3 +21,18 @@ This lab demonstrates the transition from static IP management to automated netw
 Verified the setup by running `ipconfig /all` on **PC-3-858**, confirming it received an IP from the `172.20.1.0` pool and identified `172.20.1.1` as its DNS server
 
 ###  Lab Evidence
+ screenshot taken from the DHCP server, showing the ip range and the exclusion range of the dhcp scope.
+<img width="756" height="486" alt="image" src="https://github.com/user-attachments/assets/77b8a9ee-9814-4af7-9d42-5eefbb985d23" />
+
+showing the scope options (router and DNS)
+<img width="758" height="442" alt="image" src="https://github.com/user-attachments/assets/9796348c-4b14-4eba-a67f-4a2b3d44f18c" />
+
+screenshot taken from the DHCP server, showing that an ip address was leased to the client machine.
+<img width="757" height="537" alt="image" src="https://github.com/user-attachments/assets/d29bb725-6970-4d26-9eaf-0f94b09845c3" />
+
+after Configure PC-3 to obtain an IP automatically and verify the lease.
+<img width="757" height="550" alt="image" src="https://github.com/user-attachments/assets/89cecbc9-2a73-4f18-aba5-9f270a34e8b7" />
+
+screenshot taken from client machine showing the ip setting and a successful ping to 8.8.8.8.Test connectivity to external resources (like 8.8.8.8).
+<img width="757" height="550" alt="image" src="https://github.com/user-attachments/assets/51eab7bc-93c4-4da5-971a-0d92a154d732" />
+
