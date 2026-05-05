@@ -1,0 +1,26 @@
+# Lab 4: Router & DHCP Server Configuration
+
+##  Project Overview
+This lab demonstrates the transition from static IP management to automated network infrastructure. The goal was to configure a Windows Server as a DHCP (Dynamic Host Configuration Protocol) server to dynamically assign IP addresses to clients within the `rogers-858.ca` domain.
+
+##  Lab Requirements
+* **DHCP Scope Name:** `Rogers-858-Scope`
+* **Address Range:** `172.20.1.100` to `172.20.1.200`
+* **Exclusions:** `172.20.1.1` to `172.20.1.20` (Reserved for Servers/Infrastructure)
+* **Lease Duration:** 8 Days
+* **Gateway/Router:** `172.20.1.254`
+
+##  Tasks Completed
+* **Role Installation:** Deployed the DHCP Server role on `KAM-1-858`.
+* **Scope Configuration:** Defined the IP pool, subnet masks, and exclusion ranges to prevent IP conflicts with static servers.
+* **Server Authorization:** Authorized the DHCP server within Active Directory to allow it to service client requests.
+* **Client Testing (PC-3):** Reconfigured the Windows 10 client from a static IP to "Obtain an IP address automatically" and verified successful lease acquisition.
+* **Reservation Management:** Demonstrated how to reserve a specific IP for a device based on its MAC address.
+
+##  Verification
+Verified the setup by running `ipconfig /all` on **PC-3-858**, confirming it received an IP from the `172.20.1.0` pool and identified `172.20.1.1` as its DNS server.
+
+
+###  Lab Evidence
+
+
