@@ -34,5 +34,6 @@ after Configure PC-3 to obtain an IP automatically and verify the lease.
 <img width="757" height="550" alt="image" src="https://github.com/user-attachments/assets/89cecbc9-2a73-4f18-aba5-9f270a34e8b7" />
 
 screenshot taken from client machine showing the ip setting and a successful ping to 8.8.8.8.Test connectivity to external resources (like 8.8.8.8).
-<img width="757" height="550" alt="image" src="https://github.com/user-attachments/assets/51eab7bc-93c4-4da5-971a-0d92a154d732" />
+<img width="985" height="536" alt="image" src="https://github.com/user-attachments/assets/4b2625e4-d9a6-4210-8ce1-2020dbb72f74" />
+
 
