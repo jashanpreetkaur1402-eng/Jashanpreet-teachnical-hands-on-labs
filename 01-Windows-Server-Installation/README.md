@@ -1,4 +1,5 @@
-# labs included 1.windwo server installation
+# labs included
+1.windwo server installation
 2. active directory domain controller
 3. AD user,group and ou mangement
 4. DHCP and router configuration
