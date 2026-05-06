@@ -1,21 +1,30 @@
+# labs included 1.windwo server installation
+2. active directory domain controller
+3. AD user,group and ou mangement
+4. DHCP and router configuration
+
+
+
+
+
 # Lab 1: Windows Server Installation & Initial Configuration
 
-## 🛠 Project Overview
+##  Project Overview
 This lab documents the foundational installation of Windows Server 2019 and Windows 10 within a virtualized environment. This setup serves as the base infrastructure for all subsequent networking and Active Directory labs.
 
-## 📋 Lab Requirements
+##  Lab Requirements
 To meet the project specifications, the following virtual machines were provisioned:
 * **Primary Server:** Windows Server 2019 (`KAM-1-NNN`)
 * **Secondary Server:** Windows Server 2019 (`DOT-2-NNN`)
 * **Client Workstation:** Windows 10 (`PC-3-NNN`)
 
-## ⚙️ Tasks Completed
+## Tasks Completed
 * **OS Deployment:** Installed Windows Server 2019 and Windows 10 ISOs.
 * **Initial Configuration:** Configured regional settings, time zones, and administrator accounts.
 * **Optimization:** Installed Guest Additions for improved driver performance and display resolution.
 * **Resource Management:** Verified CPU/RAM allocation (2GB RAM / 50GB Disk) as seen in the system properties.
 
-## 🔍 Verification
+##  Verification
 The installation was successful. Both servers and the client machine reached a "Ready" state and are prepared for domain promotion.
 
 ### 📸 Lab Evidence
