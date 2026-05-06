@@ -1,4 +1,5 @@
-lab1.windwo server installation 
+[lab1.windwo server installation] (./01-windows-server-installation)
+
 
 lab2. active directory domain controller
 
